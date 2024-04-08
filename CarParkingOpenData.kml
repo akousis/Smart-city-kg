@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CarParkingOpenData" id="CarParkingOpenData">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="NO_SPACES" type="string"></SimpleField>
+	<SimpleField name="Lat" type="float"></SimpleField>
+	<SimpleField name="Long" type="float"></SimpleField>
+	<SimpleField name="EastITM" type="float"></SimpleField>
+	<SimpleField name="NorthITM" type="float"></SimpleField>
+	<SimpleField name="EastIG" type="float"></SimpleField>
+	<SimpleField name="NorthIG" type="float"></SimpleField>
+</Schema>
+<Folder><name>CarParkingOpenData</name>
+  <Placemark>
+	<name>Market St</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">88</SimpleData>
+		<SimpleData name="Lat">53.273</SimpleData>
+		<SimpleData name="Long">-9.054</SimpleData>
+		<SimpleData name="EastITM">529691.955</SimpleData>
+		<SimpleData name="NorthITM">725294.803</SimpleData>
+		<SimpleData name="EastIG">129726.012</SimpleData>
+		<SimpleData name="NorthIG">225265.639</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05349975087578,53.2730824698301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jury's Hotel</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">348</SimpleData>
+		<SimpleData name="Lat">53.271</SimpleData>
+		<SimpleData name="Long">-9.055</SimpleData>
+		<SimpleData name="EastITM">529620.784</SimpleData>
+		<SimpleData name="NorthITM">725010.839</SimpleData>
+		<SimpleData name="EastIG">129654.828</SimpleData>
+		<SimpleData name="NorthIG">224981.613</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05450390336894,53.2705211550785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gaol Rd / Cathedral</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">161</SimpleData>
+		<SimpleData name="Lat">53.274</SimpleData>
+		<SimpleData name="Long">-9.057</SimpleData>
+		<SimpleData name="EastITM">529481.534</SimpleData>
+		<SimpleData name="NorthITM">725397.739</SimpleData>
+		<SimpleData name="EastIG">129515.546</SimpleData>
+		<SimpleData name="NorthIG">225368.595</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05667715039195,53.2739795859689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Harbour</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark</SimpleData>
+		<SimpleData name="NO_SPACES"></SimpleData>
+		<SimpleData name="Lat">53.27</SimpleData>
+		<SimpleData name="Long">-9.052</SimpleData>
+		<SimpleData name="EastITM">529845.677</SimpleData>
+		<SimpleData name="NorthITM">724892.562</SimpleData>
+		<SimpleData name="EastIG">129879.77</SimpleData>
+		<SimpleData name="NorthIG">224863.312</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.0511064779365,53.2694880221671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eyre Square Centre</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">452</SimpleData>
+		<SimpleData name="Lat">53.275</SimpleData>
+		<SimpleData name="Long">-9.05</SimpleData>
+		<SimpleData name="EastITM">529956.637</SimpleData>
+		<SimpleData name="NorthITM">725474.425</SimpleData>
+		<SimpleData name="EastIG">129990.751</SimpleData>
+		<SimpleData name="NorthIG">225445.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04957123394917,53.2747316679027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Radisson Hotel</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">260</SimpleData>
+		<SimpleData name="Lat">53.274</SimpleData>
+		<SimpleData name="Long">-9.043</SimpleData>
+		<SimpleData name="EastITM">530400.129</SimpleData>
+		<SimpleData name="NorthITM">725333.491</SimpleData>
+		<SimpleData name="EastIG">130434.34</SimpleData>
+		<SimpleData name="NorthIG">225304.339</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04289139067889,53.2735235091197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fairgreen House</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">400</SimpleData>
+		<SimpleData name="Lat">53.274</SimpleData>
+		<SimpleData name="Long">-9.046</SimpleData>
+		<SimpleData name="EastITM">530242.966</SimpleData>
+		<SimpleData name="NorthITM">725338.57</SimpleData>
+		<SimpleData name="EastIG">130277.142</SimpleData>
+		<SimpleData name="NorthIG">225309.419</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04524869174155,53.2735485157144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Docks</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">89</SimpleData>
+		<SimpleData name="Lat">53.271</SimpleData>
+		<SimpleData name="Long">-9.049</SimpleData>
+		<SimpleData name="EastITM">530015.932</SimpleData>
+		<SimpleData name="NorthITM">725055.66</SimpleData>
+		<SimpleData name="EastIG">130050.06</SimpleData>
+		<SimpleData name="NorthIG">225026.446</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04859014198504,53.270976202487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Corrib Centre</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">580</SimpleData>
+		<SimpleData name="Lat">53.276</SimpleData>
+		<SimpleData name="Long">-9.051</SimpleData>
+		<SimpleData name="EastITM">529935.321</SimpleData>
+		<SimpleData name="NorthITM">725617.189</SimpleData>
+		<SimpleData name="EastIG">129969.43</SimpleData>
+		<SimpleData name="NorthIG">225588.095</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04992226814342,53.27601182648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dyke Road</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">510</SimpleData>
+		<SimpleData name="Lat">53.279</SimpleData>
+		<SimpleData name="Long">-9.051</SimpleData>
+		<SimpleData name="EastITM">529896.241</SimpleData>
+		<SimpleData name="NorthITM">725880.965</SimpleData>
+		<SimpleData name="EastIG">129930.341</SimpleData>
+		<SimpleData name="NorthIG">225851.928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05056632917468,53.2783771205983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bowling Green</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark (short stay)</SimpleData>
+		<SimpleData name="NO_SPACES">40</SimpleData>
+		<SimpleData name="Lat">53.274</SimpleData>
+		<SimpleData name="Long">-9.055</SimpleData>
+		<SimpleData name="EastITM">529644.128</SimpleData>
+		<SimpleData name="NorthITM">725381.091</SimpleData>
+		<SimpleData name="EastIG">129678.175</SimpleData>
+		<SimpleData name="NorthIG">225351.945</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05423583867151,53.273851566152</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mill St</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="TYPE">Pay/Surface Carpark (short stay)</SimpleData>
+		<SimpleData name="NO_SPACES">82</SimpleData>
+		<SimpleData name="Lat">53.271</SimpleData>
+		<SimpleData name="Long">-9.058</SimpleData>
+		<SimpleData name="EastITM">529411.726</SimpleData>
+		<SimpleData name="NorthITM">725075.918</SimpleData>
+		<SimpleData name="EastIG">129445.724</SimpleData>
+		<SimpleData name="NorthIG">225046.705</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05765230118312,53.2710782288294</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Salthill</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="TYPE">Surface Carpark (free parking)</SimpleData>
+		<SimpleData name="NO_SPACES"></SimpleData>
+		<SimpleData name="Lat">53.26</SimpleData>
+		<SimpleData name="Long">-9.074</SimpleData>
+		<SimpleData name="EastITM">528346.431</SimpleData>
+		<SimpleData name="NorthITM">723815.637</SimpleData>
+		<SimpleData name="EastIG">128380.202</SimpleData>
+		<SimpleData name="NorthIG">223786.148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.07333841029907,53.2596098335674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Salthill</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="TYPE">Surface Carpark (free parking)</SimpleData>
+		<SimpleData name="NO_SPACES"></SimpleData>
+		<SimpleData name="Lat">53.259</SimpleData>
+		<SimpleData name="Long">-9.077</SimpleData>
+		<SimpleData name="EastITM">528165.221</SimpleData>
+		<SimpleData name="NorthITM">723751.7</SimpleData>
+		<SimpleData name="EastIG">128198.954</SimpleData>
+		<SimpleData name="NorthIG">223722.195</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.07603976043645,53.259010763215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Harbour Hotel</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">114</SimpleData>
+		<SimpleData name="Lat">53.271</SimpleData>
+		<SimpleData name="Long">-9.048</SimpleData>
+		<SimpleData name="EastITM">530095.177</SimpleData>
+		<SimpleData name="NorthITM">724977.485</SimpleData>
+		<SimpleData name="EastIG">130129.323</SimpleData>
+		<SimpleData name="NorthIG">224948.254</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04738499390403,53.2702841148385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eyre Square Centre</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">480</SimpleData>
+		<SimpleData name="Lat">53.271</SimpleData>
+		<SimpleData name="Long">-9.051</SimpleData>
+		<SimpleData name="EastITM">529922.415</SimpleData>
+		<SimpleData name="NorthITM">725088.64</SimpleData>
+		<SimpleData name="EastIG">129956.523</SimpleData>
+		<SimpleData name="NorthIG">225059.432</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.04999932046953,53.2712602400181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hynes Yard</name>
+	<ExtendedData><SchemaData schemaUrl="#CarParkingOpenData">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="TYPE">Multistorey Carpark</SimpleData>
+		<SimpleData name="NO_SPACES">114</SimpleData>
+		<SimpleData name="Lat">53.271</SimpleData>
+		<SimpleData name="Long">-9.051</SimpleData>
+		<SimpleData name="EastITM">529876.173</SimpleData>
+		<SimpleData name="NorthITM">725019.986</SimpleData>
+		<SimpleData name="EastIG">129910.271</SimpleData>
+		<SimpleData name="NorthIG">224990.764</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.05067741207885,53.2706371634532</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "TennisCourtsOpenData",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "TCOURTLOCN": "Crestwood, Ballinfoyle", "Lat": 53.293817, "Long": -9.04786, "EastITM": 530141.78568633401, "NorthITM": 727569.41714429203, "EastIG": 130175.93324542099, "NorthIG": 227540.743062794 }, "geometry": { "type": "Point", "coordinates": [ -9.04785891916146, 53.293817364909003 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "TCOURTLOCN": "McGrath's field, Shangort Rd.", "Lat": 53.262981, "Long": -9.112105, "EastITM": 525805.49441960803, "NorthITM": 724203.16319967504, "EastIG": 125838.716856807, "NorthIG": 224173.74084352099 }, "geometry": { "type": "Point", "coordinates": [ -9.11210405077008, 53.262981368767001 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "TCOURTLOCN": "Westside Sports Ground", "Lat": 53.27598, "Long": -9.078129, "EastITM": 528093.953804655, "NorthITM": 725614.78313527396, "EastIG": 128127.66558704, "NorthIG": 225585.67750179401 }, "geometry": { "type": "Point", "coordinates": [ -9.07812799398368, 53.275980370819802 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "TCOURTLOCN": "Doughiska Park, Doughiska Rd.", "Lat": 53.284523, "Long": -8.98426, "EastITM": 534367.47391841502, "NorthITM": 726475.01525829895, "EastIG": 134402.537318647, "NorthIG": 226446.13158741599 }, "geometry": { "type": "Point", "coordinates": [ -8.984258929381831, 53.284523395711801 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "TCOURTLOCN": "Roscam Park, Roscam", "Lat": 53.275313, "Long": -8.969385, "EastITM": 535345.44416614203, "NorthITM": 725436.68969744304, "EastIG": 135380.72221420801, "NorthIG": 225407.589036024 }, "geometry": { "type": "Point", "coordinates": [ -8.96938395504762, 53.275313408616398 ] } }
+]
+}

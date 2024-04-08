@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "LibrariesOpenData",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "NAME": "Galway City Library", "ADDRESS": "St. Augustine Street, Galway,", "TEL": "00 353 91 561666", "EMAIL": "info@galwaylibrary.ie", "MONDAY": "2.00pm to 5.00pm", "TUESDAY": "11.00am to 8.00pm* (*juvenile library closes at 5pm daily)", "WEDNESDAY": "11.00am to 8.00pm* (*juvenile library closes at 5pm daily)", "THURSDAY": "11.00am to 8.00pm* (*juvenile library closes at 5pm daily)", "FRIDAY": "11.00am to 5.00pm", "SATURDAY": "11.00am to 5.00pm", "Lat": 53.272, "Long": -9.052, "EastITM": 529810.631, "NorthITM": 725090.618, "EastIG": 129844.715, "NorthIG": 225061.41 }, "geometry": { "type": "Point", "coordinates": [ -9.05167553448122, 53.271263242545302 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "NAME": "Westside Library", "ADDRESS": "Seamus Quirke Road, Galway.", "TEL": "00 353 91 520616", "EMAIL": "westside@galwaylibrary.ie", "MONDAY": "Closed", "TUESDAY": "11.00am to 8.00pm", "WEDNESDAY": "11.00am to 8.00pm", "THURSDAY": "11.00am to 5.00pm", "FRIDAY": "11.00am to 5.00pm", "SATURDAY": "11.00am to 1.00pm and 2.00pm to 5.00pm", "Lat": 53.278, "Long": -9.074, "EastITM": 528364.439, "NorthITM": 725804.58, "EastIG": 128398.208, "NorthIG": 225775.516 }, "geometry": { "type": "Point", "coordinates": [ -9.07351627078735, 53.277486043513903 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "NAME": "Ballybane Library", "ADDRESS": "Castlepark Road, Ballybane, Galway.", "TEL": "00 353 91 380590", "EMAIL": "ballybane@galwaylibrary.ie", "MONDAY": "Closed", "TUESDAY": "11:00 to 13:00 and 14:00 to 17:00", "WEDNESDAY": "11:00 to 13:00 and 14:00 to 17:00", "THURSDAY": "11:00 to 13:00 and 14:00 to 17:00", "FRIDAY": "11:00 to 13:00 and 14:00 to 17:00", "SATURDAY": "11:00 to 13:00 and 14:00 to 17:00", "Lat": 53.285, "Long": -9.001, "EastITM": 533237.471, "NorthITM": 726568.725, "EastIG": 133272.29, "NorthIG": 226539.855 }, "geometry": { "type": "Point", "coordinates": [ -9.000612875118369, 53.284988860934803 ] } }
+]
+}
