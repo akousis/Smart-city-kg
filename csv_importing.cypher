@@ -65,5 +65,10 @@ FOREACH (polygon IN CASE WHEN geometry.type = 'Polygon' THEN [geometry.coordinat
 )
 
 
-
-
+LOAD CSV WITH HEADERS
+FROM 'https://github.com/akousis/Smart-city-kg/blob/main/data/test.csv' AS row
+MERGE (n:Demonode {objectId: toInteger(row.OBJECTID)})
+SET
+n.latitude = toFloat(row.Lat),
+n.longitude = toFloat(row.Long),
+n.content = row.text
