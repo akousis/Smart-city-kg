@@ -1,5 +1,5 @@
 LOAD CSV WITH HEADERS
-FROM 'https://github.com/akousis/Smart-city-kg/blob/main/data/LibrariesOpenData.csv' AS row
+FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/LibrariesOpenData.csv' AS row
 MERGE (l:Library {objectId: toInteger(row.OBJECTID)})
 SET
 l.latitude = toFloat(row.Y),
@@ -23,7 +23,7 @@ l.northIg = row.NortIG
 
 
 LOAD CSV WITH HEADERS
-FROM 'https://github.com/akousis/Smart-city-kg/blob/main/data/CityParksOpenData.csv' AS row
+FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/CityParksOpenData.csv' AS row
 MERGE (p:Park {objectId: toInteger(row.OBJECTID)})
 SET
 p.number = toInteger(row.NUMBER),
@@ -64,11 +64,28 @@ FOREACH (polygon IN CASE WHEN geometry.type = 'Polygon' THEN [geometry.coordinat
     )
 )
 
+LOAD CSV WITH HEADERS
+FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/Cycle_Lanes.csv' AS row
+MERGE (cl:CycleLane {objectId: toInteger(row.OBJECTID)})
+ON CREATE SET
+cl.mgid = toInteger(row.MGID),
+cl.cycle_lane = row.Cycle_lane,
+cl.length_km = toFloat(row.Length_KM),
+cl.type = row.Type,
+cl.globalid = row.GlobalID,
+cl.shapeLength = toFloat(row.Shape__Length)
 
 LOAD CSV WITH HEADERS
-FROM 'https://github.com/akousis/Smart-city-kg/blob/main/data/test.csv' AS row
-MERGE (n:Demonode {objectId: toInteger(row.OBJECTID)})
-SET
-n.latitude = toFloat(row.Lat),
-n.longitude = toFloat(row.Long),
-n.content = row.text
+FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/TennisCourtsOpenData.csv' AS row
+MERGE (t:TennisCourt {objectId: toInteger(row.OBJECTID)})
+ON CREATE SET
+t.x = toInteger(row.X),
+t.y = toInteger(row.Y),
+t.courtLocation = row.TCOURTLOCN,
+t.latitude = toFloat(row.Lat),
+t.longitude = toFloat(row.Long),
+t.eastItm = toFloat(row.EastITM),
+t.northItm = toFloat(row.NorthITM),
+t.eastIg = toFloat(row.EastIG),
+t.northIg = toFloat(row.NortIG);
+
