@@ -89,3 +89,11 @@ t.northItm = toFloat(row.NorthITM),
 t.eastIg = toFloat(row.EastIG),
 t.northIg = toFloat(row.NortIG);
 
+LOAD CSV WITH HEADERS
+FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/news.csv' AS row
+FIELDTERMINATOR ';'
+MERGE (n:News {newsid: toInteger(row.newsid)})
+ON CREATE SET
+n.headline = row.headline,
+n.content = row.content,
+n.date = row.date;
