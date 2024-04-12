@@ -35,7 +35,7 @@ memory = ConversationBufferWindowMemory(
     return_messages=True,
 )
 
-#agent_prompt = hub.pull("hwchase17/react-chat")
+# agent_prompt = hub.pull("hwchase17/react-chat")
 agent_prompt = PromptTemplate.from_template("""
 You are a movie expert providing information about movies.
 Be as helpful as possible and return as much information as possible.
@@ -80,7 +80,7 @@ agent_executor = AgentExecutor(
     agent=agent,
     tools=tools,
     memory=memory,
-    verbose=True #If error in Main, change to False
+    verbose=True  # If error in Main, change to False
 )
 
 

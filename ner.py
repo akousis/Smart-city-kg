@@ -1,0 +1,8 @@
+from transformers import pipeline
+
+ner_pipe = pipeline("ner", aggregation_strategy="simple")
+
+title = """At the March 2024 Ordinary Council meeting, the Elected Members of Galway City Council passed a motion proposed by Mayor of the City of Galway, Cllr Eddie Hoare, to fly a Peace Flag in Eyre Square, for the duration of this Council. The Peace Flag was raised by Mayor Hoare in Eyre Square beside Browne Doorway, on Tuesday 26 March. The flag is flown to show support for all those whose lives have been affected by conflict, demonstrating hope for peace. A number of local authorities across the country are flying the flag. Mayor Hoare commented, “The people of Ireland truly know the value of peace and conflict resolution, and we are grateful to live in a part of the world that is safe for our children to grow up in. As we hear and see the details of conflicts around the world, we watch in horror and distress at the trauma and destruction that ordinary people living in these conflicts experience. Galway City is raising the Peace Flag for the duration of this council to express our sincere hope for peace, in all places experiencing the turmoil of struggle, conflict and war. The loss of life, homes, livelihoods and opportunity for young people is devastating – we express our solidarity with all those finding it difficult today to meet their basic needs, or to carry on in the face of adversity. We hope for Peace for you, your family and your country. There will be families here in Galway City with loved ones in affected regions. We are thinking of you and hope to see resolution to these conflicts.
+    """
+for entity in ner_pipe(title):
+    print(entity)
