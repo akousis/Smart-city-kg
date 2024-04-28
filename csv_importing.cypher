@@ -69,19 +69,12 @@ FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/Cycle_La
 MERGE (cl:CycleLane {objectId: toInteger(row.OBJECTID)})
 ON CREATE SET
 cl.mgid = toInteger(row.MGID),
-cl.cycle_lane = row.Cycle_lane,
+cl.name = row.Cycle_Lane,
+cl.cycle_lane = row.Cycle_Lane,
 cl.length_km = toFloat(row.Length_KM),
 cl.type = row.Type,
 cl.globalid = row.GlobalID,
 cl.shapeLength = toFloat(row.Shape__Length)
-
-LOAD CSV WITH HEADERS
-FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/Cycle_Lanes.csv' AS row
-MERGE (cl:CycleLane {objectId: toInteger(row.OBJECTID)})
-ON MATCH SET
-cl.name = row.Cycle_Lane,
-cl.cycle_lane = row.Cycle_Lane
-
 
 LOAD CSV WITH HEADERS
 FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/TennisCourtsOpenData.csv' AS row
