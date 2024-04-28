@@ -79,7 +79,7 @@ LOAD CSV WITH HEADERS
 FROM 'https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/Cycle_Lanes.csv' AS row
 MERGE (cl:CycleLane {objectId: toInteger(row.OBJECTID)})
 ON MATCH SET
-cl.cycle_lane = row.Cycle_Lane,
+cl.name = row.Cycle_Lane,
 cl.cycle_lane = row.Cycle_Lane
 
 
