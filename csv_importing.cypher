@@ -100,6 +100,15 @@ n.content = row.content,
 n.date = row.date;
 
 
+//Turning properties into labels
+
+MATCH (e: Entity)
+WITH e AS en
+CALL apoc.create.addLabels( id(en), [ en.type ] )
+YIELD node
+REMOVE node.type
+RETURN node;
+
 //Refactoring graph by rename labels
 MATCH (p:PER)
 WITH collect(p) AS persons
