@@ -98,3 +98,31 @@ ON CREATE SET
 n.headline = row.headline,
 n.content = row.content,
 n.date = row.date;
+
+
+//Refactoring graph by rename labels
+MATCH (p:PER)
+WITH collect(p) AS persons
+CALL apoc.refactor.rename.label("PER", "Person", persons)
+YIELD committedOperations
+RETURN committedOperations;
+
+MATCH (o:ORG)
+WITH collect(o) AS organizations
+CALL apoc.refactor.rename.label("ORG", "Organization", organizations)
+YIELD committedOperations
+RETURN committedOperations;
+
+MATCH (l:LOC)
+WITH collect(l) AS locations
+CALL apoc.refactor.rename.label("LOC", "Location", locations)
+YIELD committedOperations
+RETURN committedOperations;
+
+MATCH (m:MISC)
+WITH collect(m) AS misc
+CALL apoc.refactor.rename.label("MISC", "Miscelaneus", misc)
+YIELD committedOperations
+RETURN committedOperations;
+
+
