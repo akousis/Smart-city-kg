@@ -42,7 +42,7 @@ p.northIg = toFloat(row.NortIG),
 p.shapeArea = toFloat(row.Shape__Area),
 p.shapeLength = toFloat(row.Shape__Length)
 
-CALL apoc.load.json("https://github.com/akousis/Smart-city-kg/blob/main/data/CityParksOpenData.geojson") YIELD value
+CALL apoc.load.json("https://raw.githubusercontent.com/akousis/Smart-city-kg/main/data/CityParksOpenData.geojson") YIELD value
 UNWIND value.features AS feature
 WITH feature.properties AS properties, feature.geometry AS geometry
 // Process properties and create nodes
